@@ -12,9 +12,9 @@ sudo apt update
 sudo apt install default-jdk
 ```
 
-- Include the worker hostname in `/etc/hosts` of the reset of workers and main.
+- Include the worker hostname in `/etc/hostname` of the reset of workers and main.
 
-- Include in `/etc/hostname` the name of the nodes of the cluster and the clients who will use the cluster  \
+- Include in `/etc/hosts` the name of the nodes of the cluster and the clients who will use the cluster  \
 E.g.
 ```sh
 # include in /etc/hosts the workers and main and remove first line with localhost
