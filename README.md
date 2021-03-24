@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ## Results
 
 For the heatmap analysis, we used the mean temperature (TG) of the weather stations.
