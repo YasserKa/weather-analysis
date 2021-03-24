@@ -8,9 +8,10 @@ The shape files used to generate the maps are taken from [here](https://www.diva
 ![Greece](./docs/Greece.png "Greece")
 ![Italy](./docs/Italy.png "Italy")
 
-Moreover, TG was used as well to for the time series analysis. In this case, the moving average was used
-![time-series analysis](./docs/mt.PNG "time-series analysis") to get the mean temperature of each year
+Moreover, TG was used as well to for the time series analysis. In this case, the moving average was used to get the mean temperature of each year
 for the 10 countries.
+
+![time-series analysis](./docs/mt.PNG "time-series analysis")
 
 ## Requirements
 
