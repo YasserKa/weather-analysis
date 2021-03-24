@@ -1,4 +1,16 @@
+## Results
+
+For the heatmap analysis, we used the mean temperature (TG) of the weather stations.
+The shape files used to generate the maps are taken from [here](https://www.diva-gis.org/gData).
+
+![Sweden](./images/Sweden.png "Sweden")
+![Germany](./images/Germany.png "Germany")
+![Greece](./images/Greece.png "Greece")
+![Italy](./images/Italy.png "Italy")
+
 ## Requirements
+
+### Heatmap
 
 Libraries:
 ```
@@ -21,7 +33,7 @@ in the cluster and make some changes as well such as including them in `/etc/hos
     - For the client, open 9998-10050 TCP
     - Ports for the cluster
 
-![ports](./ports.jpg "opt title") 
+![ports](./images/ports.jpg "opt title") 
 
 - update and install java jdk
 ```sh
