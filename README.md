@@ -1,10 +1,46 @@
+<<<<<<< HEAD
+=======
+## Results
+
+For the heatmap analysis, we used the mean temperature (TG) of the weather stations.
+The shape files used to generate the maps are taken from [here](https://www.diva-gis.org/gData).
+
+![Sweden](./docs/Sweden.png "Sweden")
+![Germany](./docs/Germany.png "Germany")
+![Greece](./docs/Greece.png "Greece")
+![Italy](./docs/Italy.png "Italy")
+
+## Requirements
+
+### Heatmap
+
+Libraries:
+```
+pip install pycountry pex geopandas shapely pyspark dms2dec
+```
+
+pex file to ship some packages to spark
+
+```
+pex pyarrow dms2dec shapely pyspark geopandas -o pyspark_pex_env.pex
+```
+
+>>>>>>> 0a17c6f0497dd73e0932809258ce29c0d86c5022
 ## How to create the cluster
 
 Note that every time you include a new node later on, you need to go back to the other nodes
 in the cluster and make some changes as well such as including them in `/etc/hostname` and
 `hadoop/etc/hadoop/workers` for main node.
 
+<<<<<<< HEAD
 - Include security group for instances (coming soon)
+=======
+- Include security group for instances
+    - For the client, open 9998-10050 TCP
+    - Ports for the cluster
+
+![ports](./docs/ports.jpg "opt title") 
+>>>>>>> 0a17c6f0497dd73e0932809258ce29c0d86c5022
 
 - update and install java jdk
 ```sh
@@ -157,3 +193,7 @@ start-dfs.sh
 ```
 
 - Check that the main/worker is working using `jps` and port 9870
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0a17c6f0497dd73e0932809258ce29c0d86c5022
